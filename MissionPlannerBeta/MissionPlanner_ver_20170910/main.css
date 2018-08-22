@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.4;
+	color: #333;
+	font-family: arial, sans-serif;
+	font-size: 0.8em;
+}
+
+#mapPane {
+	width: 800px;
+	float: left;
+	margin: 10px;
+}
+
+#cameraPane {
+	width: 400px;
+	float: left;
+	margin: 10px 0 0 20px;
+}
+
+#bottomPane {
+	clear: left;
+	margin: 10px;
+}
