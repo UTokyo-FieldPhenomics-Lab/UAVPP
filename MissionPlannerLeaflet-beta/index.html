@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags for bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Libs -->
+	<link rel="stylesheet" href="./libs/leaflet-1.4.0/leaflet.css">
+	<link rel="stylesheet" href="./libs/fontawesome-5.6.3/css/all.css">
+
+	<script src="./libs/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+	<script src="./libs/leaflet-1.4.0/leaflet.js"></script>
+	<script src="./libs/Turf.js-5.1.6/turf.min.js"></script>
+
+	<link type="text/css" href="base.css" rel="stylesheet">
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="cameraList.js"></script>
+
+	<title>Mission Planner Leaflet</title>
+</head>
+
+<body>
+	<div id="container">
+		<div class="map">
+			<div id="map" style="width: 500px; height: 500px"></div>
+		</div>
+		<div class="form">
+			<form class="params" novalidate>
+				<li>
+			    <label for="height">Flight Altitude (m)</label>
+			    <input type="number" id="height" value="30">
+			  </li>
+				<li>
+			    <label for="shutterInterval">Shutter Interval (s)</label>
+			    <input type="number" id="shutterInterval" value="2">
+			  </li>
+				<li>
+			    <label for="overlapX">Overlap (%)</label>
+			    X: <input type="number" id="overlapX" value="80">,
+					Y: <input type="number" id="overlapY" value="80">
+			  </li>
+				<li>
+			    <label for="initialDirection">Initial Direction (deg)</label>
+			    <input type="number" id="initialDirection">
+					<button id="directionReset">Parallel to the 1st line</button>
+			  </li>
+				<li>
+			    <label for="cameraDirection">Camera Direction</label>
+					Flight Direction +
+					<select id="cameraDirection" style="width: 50px">
+						<option value="0">0</option>
+						<option value="90">90</option>
+						<option value="180">180</option>
+						<option value="270">270</option>
+		      </select>deg
+			  </li>
+				<li>
+			    <label for="flightMode">Flight Mode</label>
+					<select id="flightMode">
+						<option value="grid">Orthogonal Grid</option>
+						<option value="parallel">Parallel</option>
+		      </select>
+			  </li>
+				<li>
+			    <label for="gridInterval">Grid Interval (m)</label>
+			    <input type="number" id="gridInterval" disabled="disabled">
+			  </li>
+				<li>
+			    <label for="speed">Ground Speed</label>
+			    <input type="number" id="speed" disabled="disabled">m/s,
+					<input type="number" id="speed2" disabled="disabled">km/h
+			  </li>
+				<li>
+			    <label for="distance">Flight Distance (m)</label>
+			    <input type="number" id="distance" disabled="disabled">
+			  </li>
+				<li>
+			    <label for="flightTime">Flight Time (min)</label>
+			    <input type="number" id="flightTime" disabled="disabled">
+			  </li>
+				<hr />
+				<li>
+			    <label for="cameraSelect">Camera</label>
+			    <select id="cameraSelect"></select>
+			  </li>
+				<li>
+			    <label for="imageSensorX">Image Sensor (mm)</label>
+					X: <input type="number" id="imageSensorX" disabled="disabled">,
+					Y: <input type="number" id="imageSensorY" disabled="disabled">
+			  </li>
+				<li>
+			    <label for="foculLength">Focul Length (mm)</label>
+			    <input type="number" id="foculLength" disabled="disabled">
+			  </li>
+				<li>
+			    <label for="fRatio">f-number (f/)</label>
+			    <input type="number" id="fRatio" disabled="disabled">
+			  </li>
+				<li>
+			    <label for="angleX">Angle of View (deg)</label>
+					X: <input type="number" id="angleX" disabled="disabled">,
+					Y: <input type="number" id="angleY" disabled="disabled">
+			  </li>
+				<li>
+			    <label for="shootingRangeX">Shooting Range (m)</label>
+					X: <input type="number" id="shootingRangeX" disabled="disabled">,
+					Y: <input type="number" id="shootingRangeY" disabled="disabled">
+			  </li>
+				<li>
+					<label for="DOF">Depth of Field (m)</label>
+					<input type="text" id="DOF" disabled="disabled">
+				</li>
+				<li>
+			    <label for="frontDOF"></label>
+					Front: <input type="text" id="frontDOF" disabled="disabled">,
+					Rear: <input type="text" id="rearDOF" disabled="disabled">
+			  </li>
+				<hr />
+				<a href="https://flylitchi.com/hub" target="_blank">Mission Hub - Litchi</a>
+				<i class="fas fa-external-link-alt"></i>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
