@@ -1,6 +1,6 @@
 # UAVPP
 **Breeder-Friendly-Plant-Phenotyping-tools** for UAV  
-full documentation could be found from our [Wiki page](https://github.com/oceam/UAVPP/wiki)
+full documentation could be found from our [Wiki page](https://github.com/oceam/UAVPP/wiki) (updating)
 ## Maintainers
 ### Whole page
 Wei GUO (Oceam), 東京大学国際フィールドフェノミクス研究拠点  
