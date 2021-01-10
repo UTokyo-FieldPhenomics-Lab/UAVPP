@@ -2,10 +2,11 @@
 **Breeder-Friendly-Plant-Phenotyping-tools** for UAV  
 
 # Supporting paper:  
-W., Guo, A., Singh, M., Carroll, T.L, Swetnam, N., Merchant, S., Sarkar, A.K, Singh, B., Ganapathysubramanian.(2020)
-UAS based plant phenotyping: trends and challenges.
 
-full detailed supporting documentation could be found from our [Wiki page](https://github.com/oceam/UAVPP/wiki) (updating)
+W., Guo,  M., Carroll, A., Singh, T. L Swetnam, N., Merchant, S., Sarkar, A. K Singh, B., Ganapathysubramanian.  
+UAS based plant phenotyping for research and breeding applications
+
+* full detailed supporting documentation could be found from our [Wiki page](https://github.com/oceam/UAVPP/wiki) (updating)
 
 ## Maintainers
 ### Whole page
