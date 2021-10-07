@@ -4,7 +4,8 @@
 # Supporting paper:  
 
 W., Guo,  M., Carroll, A., Singh, T. L Swetnam, N., Merchant, S., Sarkar, A. K Singh, B., Ganapathysubramanian.  
-UAS based plant phenotyping for research and breeding applications
+UAS based plant phenotyping for research and breeding applications. Plant Phenomics, Volume 2021, Article ID 9840192. https://doi.org/10.34133/2021/9840192
+
 
 * full detailed supporting documentation could be found from our [Wiki page](https://github.com/oceam/UAVPP/wiki) (updating)
 
