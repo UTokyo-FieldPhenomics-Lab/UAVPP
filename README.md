@@ -11,8 +11,8 @@ UAS based plant phenotyping for research and breeding applications. Plant Phenom
 
 ## Maintainers
 ### Whole page
-Wei GUO (Oceam), 東京大学国際フィールドフェノミクス研究拠点  
-International Field Phenomics Research Laboratory, The University of Tokyo, Tokyo, Japan
+Wei GUO (Oceam), Haozhou Wang  
+Laboratory of Field Phenomics, The University of Tokyo, Tokyo, Japan
 ### Mission planner software
 Atsushi Itoh,   
 Memuro Upland Farming Research Division(HARC/NARO)
